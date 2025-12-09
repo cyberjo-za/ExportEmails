@@ -66,7 +66,7 @@ class IMAPExporterGUI:
         
         ttk.Label(details_frame, text="IMAP Server:", font=("Arial", 10)).grid(row=0, column=0, sticky=tk.W, pady=5)
         self.server_entry = ttk.Entry(details_frame, width=40)
-        self.server_entry.insert(0, "mail.juliesproperties.co.za")
+        self.server_entry.insert(0, "")
         self.server_entry.grid(row=0, column=1, sticky=tk.EW, padx=(10, 0))
         
         ttk.Label(details_frame, text="Port:", font=("Arial", 10)).grid(row=1, column=0, sticky=tk.W, pady=5)
@@ -76,7 +76,7 @@ class IMAPExporterGUI:
         
         ttk.Label(details_frame, text="Email:", font=("Arial", 10)).grid(row=2, column=0, sticky=tk.W, pady=5)
         self.email_entry = ttk.Entry(details_frame, width=40)
-        self.email_entry.insert(0, "craig@juliesproperties.co.za")
+        self.email_entry.insert(0, "")
         self.email_entry.grid(row=2, column=1, sticky=tk.EW, padx=(10, 0))
         
         ttk.Label(details_frame, text="Password:", font=("Arial", 10)).grid(row=3, column=0, sticky=tk.W, pady=5)
